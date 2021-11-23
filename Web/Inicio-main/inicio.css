@@ -1,0 +1,51 @@
+.inicio{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    z-index: -1;
+}
+.logo{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+ 
+    z-index: 1;
+}
+.subtitulo{
+      position:relative;
+      left: 50%;
+      color: white;
+}
+#idiomas{
+    display: inline;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    list-style-type:none;
+    
+}
+
+.line{
+    display: inline;
+    margin: 20px;
+}
+.Row
+{
+    
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Column
+{
+    
+    display: table-cell;
+    color: white;
+    
+}
